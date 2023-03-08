@@ -6,7 +6,7 @@ void main() async {
   final jsonData = jsonDecode(response.body);
   print(jsonData);
 }
-Phương thức `http.get()` được sử dụng để gửi yêu cầu GET đến URL được cung cấp.
-Phương thức `jsonDecode()` được sử dụng để chuyển đổi dữ liệu JSON (chứa trong phản hồi) thành một đối tượng Dart map.
-`await` được sử dụng để đợi phản hồi trả về trước khi tiếp tục thực hiện các câu lệnh khác trong hàm `main()`.
-Dữ liệu JSON được in ra màn hình sử dụng phương thức `print()`.
+// Phương thức `http.get()` được sử dụng để gửi yêu cầu GET đến URL được cung cấp.
+// Phương thức `jsonDecode()` được sử dụng để chuyển đổi dữ liệu JSON (chứa trong phản hồi) thành một đối tượng Dart map.
+// `await` được sử dụng để đợi phản hồi trả về trước khi tiếp tục thực hiện các câu lệnh khác trong hàm `main()`.
+// Dữ liệu JSON được in ra màn hình sử dụng phương thức `print()`.
